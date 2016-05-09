@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>lemniscate</title>
+    <script src="node_modules/d3/d3.min.js"></script>
+    <script src="Lemniscate.js"></script>
+    <style>
+    body {
+      margin: 0;
+    }
+    #container {
+      width: 800px;
+      height: 800px;
+    }
+    svg line {
+      fill: none;
+      stroke: rgba(0,0,0,.15);
+      stroke-width: 1;
+    }
+    svg path {
+      fill: none;
+      stroke: rgba(0,0,0,0.5);
+      stroke-width: 80;
+    }
+    svg circle {
+      fill: rgba(0,0,0,.5);
+    }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
