@@ -1,1 +1,1 @@
-<img src="https://cdn.rawgit.com/klebba/lemniscate/master/sample.svg" width="300" height="300">
+<img src="https://cdn.jsdelivr.net/gh/klebba/lemniscate/sample.svg" width="300" height="300">
